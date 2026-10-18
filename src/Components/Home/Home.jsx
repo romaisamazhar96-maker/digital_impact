@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import heroImg from "../../assets/home-Image.jpg";
+import heroImg from "../../assets/Home-Image.jpg";
 import { Link } from "react-router-dom";
 import Services from '../Services/Services'
 import About from '../About/About'

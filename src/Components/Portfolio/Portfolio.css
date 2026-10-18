@@ -1,0 +1,103 @@
+.portfolio-container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 80px 20px;
+    box-sizing: border-box;
+}
+.portfolio-header{
+    text-align: left;
+    margin-bottom: 60px;
+}
+.portfolio-header h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.portfolio-header p{
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.8;
+    max-width: 950px;
+}
+.portfolio-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    gap:40px;
+}
+.portfolio-item.project-info{
+   padding-left: 50px;
+}
+.portfolio-item.reverse .project-info{
+   padding-right: 70px;
+   padding-left: 0;
+}
+.portfolio-item.reverse{
+    flex-direction: row-reverse;
+}
+.project-info{
+    flex: 1;
+    max-width: 450px;
+    padding-left: 60px;
+}
+.industry-tag{
+    font-size: 12px;
+    font-weight: 700;
+    color: #88c8eb;
+    flex: 1;
+    display: block;
+    margin-bottom: 8px;
+}
+.project-title{
+    font-size: 36px;
+    font-weight: 800;
+    margin:0 0 8px 0;
+    color: #009ce1;
+}
+.project-subtitle{
+    font-size: 14px;
+    color: #6688a0;
+    margin-bottom: 24px;
+}
+.tech-badge{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.badge-icon{
+    color: #00a8e8;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+.badge-icon i{
+    font-size: 26px;
+    gap: 20px;
+    color: #009ce1;
+}
+.badge-icon i.fa-aws{
+    color: #009ce1;
+    font-size: 28px;
+}
+.badge-icon i.fa-react{
+    color: #009ce1;
+    padding: 20px;
+    font-size: 28px;
+}
+.project-image-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project-img{
+   width: 100%;
+   max-width: 400px;
+   height: auto;
+   object-fit: contain;
+}
